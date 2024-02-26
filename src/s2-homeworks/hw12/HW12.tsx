@@ -24,12 +24,10 @@ const HW12 = () => {
     const dispatch = useDispatch()
 
     const change = (id: number) => { // дописать функцию
-
         dispatch(changeThemeId(id))
     }
 
     useEffect(() => {
-        console.log(themeId)
         document.documentElement.dataset.theme = themeId + ""
     }, [themeId])
 
@@ -47,6 +45,7 @@ const HW12 = () => {
                     // сделать переключение тем
                     onChangeOption={change}
                     options={themes}
+                    value = {themeId}
                 />
                 </div>
             </div>
