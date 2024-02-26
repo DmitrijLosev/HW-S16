@@ -1,0 +1,37 @@
+.stand {
+    padding:90px 70px 55px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: start;
+    gap:48px
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    color: #06C;
+    font-size: 16px;
+    font-weight: 400;
+}
+.spanError {
+    color: #CC1439;
+    font-family: Montserrat,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}

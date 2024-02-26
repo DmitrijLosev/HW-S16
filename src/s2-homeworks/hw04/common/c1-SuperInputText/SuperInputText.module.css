@@ -1,0 +1,42 @@
+.input:focus {
+    outline: 1px lightslategrey solid;
+}
+
+.input {
+    color: dimgrey;
+    padding:0 10px;
+    width: 372px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.inputWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    gap: 5px;
+}
+
+.superInput {
+
+
+}
+
+.errorInput {
+    border: 1px solid #CC1439;
+
+}
+
+.errorInput:focus {
+    outline: none;
+
+}
+
+.error {
+
+}
